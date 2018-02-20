@@ -1,0 +1,70 @@
+/*--------------------------------------------
+---------- Autor: Adriel Oliveira ------------
+---------- Programador Web JR (NEAD) ---------
+---------- Autor: Iuri Volnistem -------------
+---------- Estagiario 1 (NEAD) ---------------
+---------- Data: 06/02/2018 ------------------
+----------------------------------------------*/
+
+/*--------------------------------------------
+------ Conteúdo da aula CSS - Desktop --------
+----------------------------------------------*/
+
+#section1{background: url("http://ava.toledoprudente.edu.br/ead/webaula/2018-1/cursoslivres/godebate/img/arquivos/fundo_1.jpg") no-repeat center center;background-size: cover; height: auto;padding-top: 150px;padding-bottom: 150px;background-attachment: inherit !important;}
+/* #section1{height: auto;padding-top: 150px;padding-bottom: 150px;background-attachment: inherit !important;} */
+#section1 h1{font-family: "Merriweather",  serif; font-style: italic; font-weight: 400;
+color: #fff;text-transform: none; font-size: 90px;}
+#section2{height: auto; padding-top: 100px; padding-bottom: 120px;}
+#section2 h5{color: #a17b4c; text-align: left; font-family: "Merriweather"; text-transform: none; font-style: italic;font-weight: 700;}
+#section2 p{font-family: "Open Sans"; color: #462b0a; font-weight: 300; font-size: 18px;
+text-align: justify;}
+#section2 img{box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.6);}
+#section3{height: auto; padding-top: 40px; padding-bottom: 100px; background-color: #f9f4ed;}
+#section3 img{box-shadow: 0px 2px 5px rgba(0,0,0,0.6);}
+#section3 h5{color: #a17b4c; text-align: left; font-family: "Merriweather"; text-transform: none; font-style: italic;font-weight: 700;}
+#section3 p{font-family: "Open Sans"; color: #462b0a; font-weight: 300; font-size: 18px;
+text-align: justify;}
+.back-tem{color: #a17b4c;font-family: "Open Sans"; text-transform: none;font-size: 14px;float: right;}
+.btn-voltar{border-radius: 20px;width: 20px;height: 20px;background-color: #f8e8d2;border: none;float: right;margin-left: 2px;}
+.btn-voltar:active{background-color: #f8e8d2;}
+.btn-voltar i{font-size: 20px;margin-left: -7px;margin-top: -1px;color: #462b0a;}
+.shadow-no{box-shadow: none !important;}
+.border-left{border-left: 1px solid #a17b4c; padding-top: 10px; padding-bottom: 10px;}
+.border-right{border-right: 1px solid #a17b4c; padding-top: 10px; padding-bottom: 10px;}
+
+.modal {padding-right: 0px !important;}
+.modal {max-height: 100% !important;width: 100% !important;background-color: transparent !important;}
+.modal .modal-body {padding: 0;}
+.modal .modal-content {padding: 0;}
+.close-modal {position: absolute;top: 10px;right: 15px;width: 25px;height: 25px;background-color: transparent;cursor: pointer;z-index: 1;background-color: #ed6c6c;border-radius: 100%;font-weight: 900;}
+#menuModal .close-modal {position: absolute;top: 90px;right: 10px;width: 75px;height: 75px;background-color: transparent;cursor: pointer;z-index: 1;}
+.modal-dialog{margin-top: 15%;}
+.modal-content {padding: 0px 0;min-height: 100%;border: 0;text-align: center;background-clip: border-box;-webkit-box-shadow: none;box-shadow: none;}
+.close-modal .lr {z-index: 1051;width: 1px;height: 15px;margin-left: 12px;margin-top: 5px;background-color: #fff;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+.close-modal .lr .rl {z-index: 1052;width: 1px;height: 15px;background-color: #fff;-webkit-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg);}
+
+
+
+/*--------------------------------------------
+------ Conteúdo da aula CSS - Mobile ---------
+----------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+}
+
+/*--------------------------------------------
+------ Conteúdo da aula CSS - Tablet ---------
+----------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/*--------------------------------------------
+------ Conteúdo da aula CSS - Tela Maior -----
+----------------------------------------------*/
+
+@media screen and (min-width: 1500px) {
+
+}
